@@ -8,7 +8,6 @@ const sequelize = new Sequelize(dbConnectionString, {
       rejectUnauthorized: false
     }
   },
-  native: true,
   pool: {
     max: 5,
     min: 0,
