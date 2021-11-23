@@ -1,5 +1,5 @@
 const Sequelize = require("sequelize");
-const dbConnectionString = process.env.DATABASE_URL || "postgres://postgres:123@localhost:5432/testdb"
+const dbConnectionString = process.env.DATABASE_URL || "postgres://postgres:admin@localhost:5432/testdb"
 const sequelize = new Sequelize(dbConnectionString, {
   dialect: "postgres",
   dialectOptions: {
